@@ -1,5 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
+#include<string.h>
 void main()
 {
 	char s1[50],s2[50],s3[50];
