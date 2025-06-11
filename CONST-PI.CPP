@@ -3,8 +3,7 @@
 #define PI 3.14
 void main()
 {
-clrscr();
-printf("%f",PI);
-getch();
-
+	clrscr();
+	printf("%f",PI);
+	getch();
 }
