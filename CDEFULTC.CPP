@@ -2,26 +2,26 @@
 #include<conio.h>
 class Box
 {
-	//c++ ondefult constructor
+	//c++ on defult constructor
 	double weight,height,depth;
 	public:
 		Box()
 		{
-			cout<<"\nDefult constructor called";
+			cout<<"\n\nDefult constructor called";
 			weight=3;
 			height=4;
 			depth=5;
 		}
 		Box(double w,double h,double d)
 		{
-			cout<<"\nParameterzied constructor called:";
+			cout<<"\n\nParameterzied constructor called:";
 			weight=w;
 			height=h;
 			depth=d;
 		}
 		Box(Box &b)
 		{
-			cout<<"\nCopy constructor is called:";
+			cout<<"\n\nCopy constructor is called:";
 			weight=b.weight;
 			height=b.height;
 			depth=b.depth;
