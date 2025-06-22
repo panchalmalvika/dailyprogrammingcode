@@ -9,7 +9,8 @@ void main()
 	printf("\nFactor of %d are:",num);
 	for(i=1;i<=num;i++)
 	{
-		if(num%i==0){
+		if(num%i==0)
+		{
 			printf("\n%d",i);
 		}
 	}
