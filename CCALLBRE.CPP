@@ -1,13 +1,13 @@
 #include<iostream.h>
 #include<conio.h>
-void swap(int a,int b);
+void swapr(int x,int y);
 int main()
 {
 	int a=2,b=4;
 	clrscr();
-	swap(&a,&b);
+	swapr(&a,&b);
 	cout<<"\nA: "<<a<<" & B: "<<b;
-	return 0;
+	getch();
 }
 void swap(int *x,int *y)
 {
