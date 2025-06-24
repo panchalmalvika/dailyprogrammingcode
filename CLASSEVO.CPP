@@ -18,7 +18,8 @@ class eo
 			}
 			else
 			{
-				cout<<"\nA is odd number: ";
+				cout<<"\nA is odd
+				number: ";
 			}
 		}
 };
