@@ -28,4 +28,5 @@ void main()
 		printf("\nA[%d]: %d",i,a[i]);
 	}
 	getch();
+
 }
